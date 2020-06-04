@@ -294,7 +294,7 @@ function advanceThroughLessons (tutorialId) {
         it(`uploads a single file`, function () {
           const fileName = 'favicon.png'
           cy.fixture(fileName).then(fileContent => {
-            cy.get('[data-cy=file-upload]').upload({ fileContent, fileName, mimeType: 'image/png' })
+            cy.get('[data-cy=file-upload]').attachFile({ fileContent, fileName, mimeType: 'image/png' })
           })
         })
       }
@@ -306,7 +306,7 @@ function advanceThroughLessons (tutorialId) {
                 { fileName: 'example.json', fileContent: exampleJson, mimeType: 'application/json' },
                 { fileName: 'favicon.png', fileContent: faviconPng, mimeType: 'image/png' }
               ]
-              cy.get('[data-cy=file-upload]').upload(files, { uploadType: 'input' })
+              cy.get('[data-cy=file-upload]').attachFile(files, { uploadType: 'input' })
             })
           })
         })

@@ -1,7 +1,7 @@
 const fs = require('fs').promises
 
 const errorCode = require('err-code')
-const marked = require('meta-marked')
+const marked = require('meta-marked-2020')
 
 const log = require('../logger')
 const debug = require('../../utils/debug')

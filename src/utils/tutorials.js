@@ -1,4 +1,4 @@
-import marked from 'meta-marked'
+import marked from 'meta-marked-2020'
 import moment from 'moment'
 
 import projects from './projects'

@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import marked from 'meta-marked'
+import marked from 'meta-marked-2020'
 
 export default {
   props: {

@@ -8,12 +8,12 @@ module.exports = {
   },
   configureWebpack: config => {
     config.plugins.push(
-      new CopyWebpackPlugin([
-        {
+      new CopyWebpackPlugin({
+        patterns: [{
           from: 'node_modules/monaco-editor/min/vs',
           to: 'vs'
-        }
-      ])
+        }]
+      })
     )
     config.module.rules.push({
       test: /\.md$/,

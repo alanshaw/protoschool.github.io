@@ -1,4 +1,4 @@
-import marked from 'meta-marked'
+import marked from 'meta-marked-2020'
 import 'highlight.js/styles/github.css'
 
 const hljs = require('highlight.js/lib/highlight.js')

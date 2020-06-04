@@ -1,6 +1,6 @@
 const fs = require('fs').promises
 
-const marked = require('meta-marked')
+const marked = require('meta-marked-2020')
 
 const api = require('../../')
 

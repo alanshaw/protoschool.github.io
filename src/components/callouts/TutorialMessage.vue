@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import marked from 'meta-marked'
+import marked from 'meta-marked-2020'
 import InfoIcon from '../../static/images/icons/info.svg?inline'
 import { state as tutorialState, states } from '../../utils/tutorials'
 
